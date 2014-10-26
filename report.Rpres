@@ -1,0 +1,37 @@
+Presentation for Developing Data Products
+========================================================
+author: Ned
+date: October 2014
+
+Overview
+========================================================
+
+This presentation is for our Shiny App that explores the relationships in the Air Quality data set which captures the daily air quality measurements in New York, May to September 1973.
+
+The following data elements are captured :
+- Ozone
+- Solar.R
+- Wind
+- Temp
+- Month
+- Day
+
+Air Quality Dataset Summary
+========================================================
+Here is a quick analysis of the Air Quality dataset
+
+```{r}
+summary(airquality)
+```
+
+Air Quality Dataset Relationships
+========================================================
+
+```{r, echo=FALSE}
+plot(airquality)
+```
+
+Summary
+========================================================
+There is definitely a correlation in the dataset between air quality and the data captured
+
